@@ -1,9 +1,23 @@
 {
     "applinks": {
         "apps": [],
-        "details": [{
-            "appID": "6D5VKBZTWA.com.test.black.v",
-            "paths": ["/hello/*"]
-        }]
+        "details": [
+            {
+                "appIDs": [
+                    "6D5VKBZTWA.com.test.black.v"
+                ],
+                "paths": [
+                    "*"
+                ],
+                "components": [
+                    {"/": "/*"}
+                ]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": [
+            "6D5VKBZTWA.com.test.black.v"
+        ]
     }
 }
